@@ -31,7 +31,6 @@ li {
   gap: 20px;
 }
 
-
 header,
 footer {
   width: 100%;
@@ -40,21 +39,35 @@ footer {
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
-  border-bottom: 1px solid;
-}
-footer {
-  border-top: 1px solid;
   justify-content: space-between;
 }
-header{
+
+footer {
+  border-top: 1px solid;
+}
+header {
   height: 40px;
+  border-bottom: 1px solid;
 }
 
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-weight: 500;
+  font-size: 24px;
+}
 
 #page-title {
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 main {
@@ -75,7 +88,7 @@ main {
 
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.872);
+  box-shadow: 0 4px 8px rgba(211, 211, 211, 0.011);
   margin-bottom: 20px;
 }
 
